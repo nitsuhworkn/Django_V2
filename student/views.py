@@ -9,6 +9,15 @@ from student.serializers import StudentSerializer  # this is for API
 class Studentviewset(viewsets.ModelViewSet):
     queryset = Student_T.objects.all()
     serializer_class = StudentSerializer
+
+
+
+
+
+
+
+
+
 # Create your views here.
 def students(request):
     if request.method == 'POST':
